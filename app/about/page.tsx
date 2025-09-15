@@ -5,7 +5,7 @@ import Location from "../../components/about/Location";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "Lord Of Beach Resort - About Us",
   description: "Learn about Lord Of Beach Resort's story, values, and heritage. Discover our commitment to providing peaceful retreats with yoga & meditation facilities in Batticaloa, Sri Lanka. Founded in 2020 with a vision for authentic wellness experiences.",
   keywords: "about Lord Of Beach Resort, Batticaloa resort history, Sri Lanka wellness retreat, resort values, peaceful sanctuary, meditation center story",
   openGraph: {

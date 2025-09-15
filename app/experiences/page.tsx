@@ -6,7 +6,7 @@ import BookExperiences from "@/components/experiences/BookExperiences"
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Experiences",
+  title: "Lord Of Beach Resort - Experiences",
   description: "Discover amazing experiences at Lord Of Beach Resort in Batticaloa, Sri Lanka. Enjoy yoga & meditation sessions, relaxing garden with basketball, free cycle rides, and wellness activities. Book your peaceful retreat today.",
   keywords: "Batticaloa experiences, Sri Lanka yoga retreat, meditation sessions, basketball court, free cycle rides, wellness activities, relaxing garden, peaceful retreat activities",
   openGraph: {

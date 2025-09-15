@@ -4,7 +4,7 @@ import FindUs from "@/components/contact/FindUs";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
+  title: "Lord Of Beach Resort - Contact Us",
   description: "Get in touch with Lord Of Beach Resort in Batticaloa, Sri Lanka. Contact us for bookings, inquiries about our yoga & meditation centre, accommodations, and peaceful retreat experiences. We're here to help plan your perfect getaway.",
   keywords: "contact Lord Of Beach Resort, Batticaloa resort contact, Sri Lanka accommodation booking, yoga retreat contact, meditation center contact, resort inquiries, booking information",
   openGraph: {

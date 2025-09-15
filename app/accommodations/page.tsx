@@ -6,7 +6,7 @@ import Book from "@/components/accommodations/Book";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Accommodations",
+  title: "Lord Of Beach Resort - Accommodations",
   description: "Discover comfortable guest rooms at Lord Of Beach Resort in Batticaloa, Sri Lanka. Two peaceful rooms with private bathrooms, free WiFi, and essential amenities. From $45 per night. Book your tranquil stay today.",
   keywords: "Batticaloa accommodation, Sri Lanka guest rooms, comfortable rooms Batticaloa, affordable accommodation, private bathroom, free WiFi, peaceful rooms, Lord Of Beach Resort rooms",
   openGraph: {
