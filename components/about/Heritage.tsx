@@ -92,7 +92,7 @@ export default function Heritage() {
           >
             <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-xl sm:shadow-2xl">
               <Image 
-                src="/home/1.jpg" 
+                src="/images/outdoor/643429493.jpg" 
                 alt="Main heritage" 
                 width={600}
                 height={400}
@@ -113,7 +113,7 @@ export default function Heritage() {
               className="absolute -top-4 -right-4 sm:-top-6 sm:-right-6 w-20 h-16 sm:w-32 sm:h-24 rounded-lg sm:rounded-xl overflow-hidden shadow-lg border-2 sm:border-4 border-white block lg:hidden"
             >
               <Image 
-                src="/home/2.jpg" 
+                src="/images/outdoor/615134288.jpg" 
                 alt="Heritage detail 1" 
                 fill 
                 className="object-cover" 
@@ -128,7 +128,7 @@ export default function Heritage() {
               className="absolute -top-4 -right-4 sm:-top-6 sm:-right-6 w-20 h-16 sm:w-32 sm:h-24 rounded-lg sm:rounded-xl overflow-hidden shadow-lg border-2 sm:border-4 border-white hidden lg:block"
             >
               <Image 
-                src="/home/2.jpg" 
+                src="/images/outdoor/615134288.jpg" 
                 alt="Heritage detail 1" 
                 fill 
                 className="object-cover" 
@@ -142,7 +142,7 @@ export default function Heritage() {
               className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 w-16 h-12 sm:w-28 sm:h-20 rounded-lg sm:rounded-xl overflow-hidden shadow-lg border-2 sm:border-4 border-white hidden lg:block"
             >
               <Image 
-                src="/home/3.jpg" 
+                src="/images/meditation room/615134269.jpg" 
                 alt="Heritage detail 2" 
                 fill 
                 className="object-cover" 

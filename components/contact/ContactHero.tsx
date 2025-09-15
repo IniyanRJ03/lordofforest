@@ -7,7 +7,7 @@ export default function ContactHero() {
     <section className="relative w-full h-[50vh] min-h-[300px] sm:h-[60vh] sm:min-h-[400px] md:h-[70vh] md:min-h-[500px] lg:h-[80vh] lg:min-h-[600px] flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <Image
-        src="/home/4.jpg"
+        src="/images/outdoor/bbring.jpg"
         alt="Contact background"
         fill
         className="object-cover object-center w-full h-full z-0"

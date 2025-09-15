@@ -6,17 +6,17 @@ const FEATURES = [
   {
     title: "Panoramic Views",
     desc: "Floor-to-ceiling windows offering breathtaking lagoon and garden views from every room.",
-    image: "/home/2.jpg",
+    image: "/images/outdoor/615134288.jpg",
   },
   {
     title: "Private Balconies",
     desc: "Spacious private balconies or terraces perfect for outdoor relaxation and dining.",
-    image: "/home/4.jpg",
+    image: "/images/outdoor/bbring.jpg",
   },
   {
     title: "Premium Bedding",
     desc: "Luxurious king-sized beds with premium linens and pillow menu for perfect comfort.",
-    image: "/home/1.jpg",
+    image: "/images/outdoor/643429493.jpg",
   },
 ];
 
@@ -80,7 +80,7 @@ export default function Features() {
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
         >
-          <Image src="/home/3.jpg" alt="Pigeon Island and resort aerial view" fill className="object-cover w-full h-full" />
+          <Image src="/images/meditation room/615134269.jpg" alt="Pigeon Island and resort aerial view" fill className="object-cover w-full h-full" />
         </motion.div>
       </div>
     </section>

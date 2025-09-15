@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const VENUES = [
   {
     title: "The Lagoon Restaurant",
-    image: "/home/1.jpg",
+    image: "/images/outdoor/643429493.jpg",
     desc: "Our signature restaurant offering panoramic lagoon views and international cuisine with a local twist.",
     details: [
       "Cuisine: International with a local twist",
@@ -17,7 +17,7 @@ const VENUES = [
   },
   {
     title: "Lagoonside Grill",
-    image: "/home/3.jpg",
+    image: "/images/meditation room/615134269.jpg",
     desc: "Fresh seafood and grilled specialties served in a casual atmosphere by the lagoon.",
     details: [
       "Lunch: 12:00 PM - 4:00 PM",
@@ -27,7 +27,7 @@ const VENUES = [
   },
   {
     title: "Sunset Lounge",
-    image: "/home/2.jpg",
+    image: "/images/outdoor/615134288.jpg",
     desc: "An elegant setting for cocktails, light bites, and breathtaking sunset views.",
     details: [
       "Cuisine: Cocktails and light bites",

@@ -12,7 +12,7 @@ const FEATURES = [
       "Professional Equipment Provided",
       "Guided Activities Available",
     ],
-    image: "/home/1.jpg",
+    image: "/images/outdoor/643429493.jpg",
   },
   {
     title: "Cultural Immersion",
@@ -23,7 +23,7 @@ const FEATURES = [
       "Village tours",
       "Craft demonstrations",
     ],
-    image: "/home/2.jpg",
+    image: "/images/outdoor/615134288.jpg",
   },
   {
     title: "Nature Exploration",
@@ -34,7 +34,7 @@ const FEATURES = [
       "Nature photography",
       "Mangrove exploration",
     ],
-    image: "/home/3.jpg",
+    image: "/images/meditation room/615134269.jpg",
   },
 ];
 

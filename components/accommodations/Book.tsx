@@ -60,7 +60,7 @@ export default function Book() {
       
       {/* Call to action banner */}
       <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-lg mb-6 h-[160px] sm:h-[200px] md:h-[240px] lg:h-[320px]">
-        <Image src="/home/2.jpg" alt="Poolside luxury" fill className="object-cover w-full h-full" />
+        <Image src="/images/outdoor/615134288.jpg" alt="Poolside luxury" fill className="object-cover w-full h-full" />
         <div className="absolute inset-0 bg-black/50 z-10" />
         <div className="relative z-20 p-4 sm:p-6 lg:p-10 xl:p-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 sm:gap-6 h-full">
           <div>
