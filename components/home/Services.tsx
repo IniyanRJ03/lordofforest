@@ -71,7 +71,7 @@ export default function Services() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.7, ease: "easeOut" }}
-      className="bg-white max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 lg:py-20"
+      className="bg-gradient-to-b from-white via-blue-50/40 to-emerald-50/40 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 lg:py-20"
     >
       <span className="uppercase text-xs tracking-widest text-gray-500 font-semibold mb-2 sm:mb-3 block">Amenities & Services</span>
       <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 sm:mb-8 leading-tight">
@@ -86,8 +86,8 @@ export default function Services() {
             onClick={() => setActive(i)}
             className={`px-3 sm:px-4 lg:px-6 py-2 rounded-full text-xs sm:text-sm font-medium border transition-all duration-300 ${
               active === i 
-                ? "bg-gray-100 text-gray-900 border-gray-300 shadow-md" 
-                : "bg-white text-gray-500 border-transparent hover:bg-gray-50 hover:text-gray-700"
+                ? "bg-gradient-to-r from-blue-600 to-emerald-600 text-white border-transparent shadow-md" 
+                : "bg-white/80 backdrop-blur text-gray-700 border-gray-200 hover:bg-white"
             }`}
           >
             {t.label}
@@ -119,7 +119,7 @@ export default function Services() {
           </div>
           <a 
             href="#" 
-            className="inline-flex items-center gap-2 text-gray-900 font-medium mt-4 sm:mt-6 hover:underline group text-sm sm:text-base lg:text-lg transition-all duration-300"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-emerald-600 text-white px-5 py-3 rounded-full font-semibold mt-4 sm:mt-6 group text-sm sm:text-base lg:text-lg transition-all duration-300 hover:from-blue-700 hover:to-emerald-700"
           >
             Learn more
             <span className="inline-block group-hover:translate-x-1 transition-transform">→</span>

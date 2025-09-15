@@ -43,7 +43,7 @@ export default function Reservation() {
         {STEPS.map((step, i) => (
           <motion.div
             key={i}
-            className="bg-white rounded-xl shadow p-4 sm:p-5 lg:p-6 flex flex-col items-center text-center relative"
+            className="bg-white/90 backdrop-blur rounded-xl shadow p-4 sm:p-5 lg:p-6 flex flex-col items-center text-center relative border border-gray-100"
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
@@ -71,10 +71,10 @@ export default function Reservation() {
               Book your table now and enjoy an unforgettable dining experience. Special requests or larger groups? Our team is here to assist you.
             </p>
             <div className="flex gap-2 sm:gap-4 flex-wrap">
-              <a href="#" className="bg-blue-600 text-white px-3 sm:px-4 lg:px-6 py-2 rounded-lg font-semibold shadow hover:bg-blue-700 transition text-xs sm:text-sm lg:text-base">
+              <a href="#" className="bg-gradient-to-r from-blue-600 to-emerald-600 text-white px-3 sm:px-4 lg:px-6 py-2 rounded-lg font-semibold shadow hover:from-blue-700 hover:to-emerald-700 transition text-xs sm:text-sm lg:text-base">
                 Reserve Now
               </a>
-              <a href="#" className="bg-white text-gray-900 px-3 sm:px-4 lg:px-6 py-2 rounded-lg font-semibold shadow hover:bg-gray-100 transition text-xs sm:text-sm lg:text-base">
+              <a href="#" className="bg-white/90 backdrop-blur text-gray-900 px-3 sm:px-4 lg:px-6 py-2 rounded-lg font-semibold shadow hover:bg-white transition text-xs sm:text-sm lg:text-base border border-gray-100">
                 Contact Us
               </a>
             </div>

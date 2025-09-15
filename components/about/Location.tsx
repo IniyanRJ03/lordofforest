@@ -44,7 +44,7 @@ const features = [
 
 export default function Location() {
   return (
-    <section className="bg-gray-50 py-8 sm:py-12 lg:py-20 flex justify-center items-center">
+    <section className="bg-gradient-to-b from-white via-blue-50/40 to-emerald-50/40 py-8 sm:py-12 lg:py-20 flex justify-center items-center">
       <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-12">
         <div className="max-w-3xl mx-auto text-center mb-8 sm:mb-12">
           <div className="flex items-center justify-center gap-2 sm:gap-3 lg:gap-4 mb-2">

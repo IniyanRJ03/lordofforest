@@ -76,7 +76,7 @@ export default function Amenities() {
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7, ease: "easeOut" }}
-      className="bg-white py-12 sm:py-16 lg:py-20 px-4"
+      className="bg-gradient-to-b from-white via-blue-50/40 to-emerald-50/40 py-12 sm:py-16 lg:py-20 px-4"
     >
       <div className="max-w-7xl mx-auto">
         {/* Header */}
@@ -112,7 +112,7 @@ export default function Amenities() {
               className={`relative cursor-pointer rounded-xl sm:rounded-2xl p-4 sm:p-6 border-2 transition-all duration-300 ${
                 active === amenity.id 
                   ? `${amenity.bgColor} ${amenity.borderColor} shadow-lg` 
-                  : 'bg-white border-gray-200 hover:border-gray-300'
+                  : 'bg-white/90 backdrop-blur border-gray-200 hover:border-gray-300'
               }`}
             >
               <div className={`w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-gradient-to-br ${amenity.color} flex items-center justify-center mb-3 sm:mb-4`}>
@@ -212,7 +212,7 @@ export default function Amenities() {
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.4, delay: 0.3 + index * 0.05 }}
-                    className="flex items-center space-x-3 p-3 bg-white rounded-lg border border-gray-100 hover:border-gray-200 transition-colors"
+                    className="flex items-center space-x-3 p-3 bg-white/90 backdrop-blur rounded-lg border border-gray-100 hover:border-gray-200 transition-colors"
                   >
                     <div className={`w-2 h-2 rounded-full bg-gradient-to-br ${selectedAmenity.color}`} />
                     <span className="text-gray-700 font-medium text-sm sm:text-base">{feature}</span>

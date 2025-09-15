@@ -27,7 +27,7 @@ export default function Heritage() {
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7, ease: "easeOut" }}
-      className="bg-white py-12 sm:py-16 lg:py-20 px-4"
+      className="bg-gradient-to-b from-white via-blue-50/40 to-emerald-50/40 py-12 sm:py-16 lg:py-20 px-4"
     >
       <div className="max-w-7xl mx-auto">
         {/* Header */}

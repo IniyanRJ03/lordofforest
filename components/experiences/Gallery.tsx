@@ -71,7 +71,7 @@ export default function Gallery() {
   const filtered = filter === "all" ? EXPERIENCES : EXPERIENCES.filter(e => e.category === filter);
 
   return (
-    <section className="bg-white py-12 sm:py-16 lg:py-20 px-4">
+    <section className="bg-gradient-to-b from-white via-blue-50/40 to-emerald-50/40 py-12 sm:py-16 lg:py-20 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div 
@@ -107,8 +107,8 @@ export default function Gallery() {
               whileTap={{ scale: 0.95 }}
               className={`px-4 sm:px-6 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-medium border transition-all focus:outline-none ${
                 filter === f.value 
-                  ? "bg-blue-600 text-white border-blue-600 shadow-lg" 
-                  : "bg-white text-gray-700 border-gray-200 hover:bg-gray-50"
+                  ? "bg-gradient-to-r from-blue-600 to-emerald-600 text-white border-transparent shadow-lg" 
+                  : "bg-white/80 backdrop-blur text-gray-700 border-gray-200 hover:bg-white"
               }`}
             >
               {f.label}
