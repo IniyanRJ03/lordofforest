@@ -7,12 +7,12 @@ const STEPS = [
   {
     icon: <FaCalendarAlt className="text-blue-600 text-xl sm:text-2xl" />,
     title: "Choose Date",
-    desc: "Select your preferred dining date",
+    desc: "Select your preferred activity date",
   },
   {
     icon: <FaClock className="text-blue-600 text-xl sm:text-2xl" />,
     title: "Select Time",
-    desc: "Pick your preferred dining time",
+    desc: "Pick your preferred activity time",
   },
   {
     icon: <FaUsers className="text-blue-600 text-xl sm:text-2xl" />,
@@ -60,7 +60,7 @@ export default function BookExperiences() {
       
       {/* Call to action banner */}
       <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-lg mb-6 h-[160px] sm:h-[200px] md:h-[240px] lg:h-[320px]">
-        <Image src="/images/outdoor/615134288.jpg" alt="Dining reservation" fill className="object-cover w-full h-full" />
+        <Image src="/images/outdoor/615134288.jpg" alt="Activity booking" fill className="object-cover w-full h-full" />
         <div className="absolute inset-0 bg-black/50 z-10" />
         <div className="relative z-20 p-4 sm:p-6 lg:p-10 xl:p-16 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 sm:gap-6 h-full">
           <div>

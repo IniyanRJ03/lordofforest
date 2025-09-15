@@ -24,25 +24,6 @@ const AMENITIES = [
     image: "/images/meditation room/615134269.jpg",
     stats: { guests: "500+", rating: "4.9", sessions: "2000+" }
   },
-  {
-    id: "dining",
-    title: "Culinary Excellence",
-    icon: FaUtensils,
-    color: "from-orange-500 to-red-500",
-    bgColor: "bg-gradient-to-br from-orange-50 to-red-50",
-    borderColor: "border-orange-200",
-    description: "Savor exceptional dining experiences with local and international cuisine.",
-    features: [
-      "Lagoon View Restaurant",
-      "Authentic Sri Lankan Dishes",
-      "International Cuisine",
-      "Private Dining Rooms",
-      "Wine & Cocktail Bar",
-      "Room Service 24/7"
-    ],
-    image: "/images/outdoor/643429493.jpg",
-    stats: { guests: "800+", rating: "4.8", dishes: "50+" }
-  },
 
   {
     id: "services",

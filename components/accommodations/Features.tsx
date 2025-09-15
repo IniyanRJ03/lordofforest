@@ -10,7 +10,7 @@ const FEATURES = [
   },
   {
     title: "Private Balconies",
-    desc: "Spacious private balconies or terraces perfect for outdoor relaxation and dining.",
+    desc: "Spacious private balconies or terraces perfect for outdoor relaxation and meditation.",
     image: "/images/outdoor/bbring.jpg",
   },
   {

@@ -5,7 +5,6 @@ import { FaCcVisa, FaCcMastercard, FaCcPaypal } from "react-icons/fa";
 const exploreLinks = [
   { name: "About", href: "#" },
   { name: "Rooms", href: "#" },
-  { name: "Dining", href: "#" },
   { name: "Experiences", href: "#" },
 ];
 const legalLinks = [
