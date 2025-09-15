@@ -5,7 +5,7 @@ const values = [
     icon: (
       <svg className="w-6 h-6 sm:w-8 sm:h-8 text-blue-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>
     ),
-    image: "/home/1.jpg",
+    image: "/images/outdoor/643429493.jpg",
   },
   {
     title: "Environmental Stewardship",
@@ -13,7 +13,7 @@ const values = [
     icon: (
       <svg className="w-6 h-6 sm:w-8 sm:h-8 text-blue-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 2a10 10 0 00-7.07 17.07A10 10 0 1012 2zm0 18a8 8 0 110-16 8 8 0 010 16zm-1-7h2v2h-2zm0-4h2v2h-2z" /></svg>
     ),
-    image: "/home/2.jpg",
+    image: "/images/outdoor/615134288.jpg",
   },
   {
     title: "Cultural Connection",
@@ -21,7 +21,7 @@ const values = [
     icon: (
       <svg className="w-6 h-6 sm:w-8 sm:h-8 text-blue-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a10 10 0 000 20M12 2a10 10 0 010 20" /></svg>
     ),
-    image: "/home/3.jpg",
+    image: "/images/meditation room/615134269.jpg",
   },
   {
     title: "Quality Excellence",
@@ -29,7 +29,7 @@ const values = [
     icon: (
       <svg className="w-6 h-6 sm:w-8 sm:h-8 text-blue-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="4" /><path d="M9 9h6v6H9z" /></svg>
     ),
-    image: "/home/1.jpg",
+    image: "/images/outdoor/643429493.jpg",
   },
 ];
 

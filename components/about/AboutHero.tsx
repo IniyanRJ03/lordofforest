@@ -3,9 +3,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const VENUES = [
-  { title: "Our Beginnings", image: "/home/1.jpg" },
-  { title: "Nature & Luxury", image: "/home/2.jpg" },
-  { title: "Our People", image: "/home/3.jpg" },
+  { title: "Our Beginnings", image: "/images/outdoor/643429493.jpg" },
+  { title: "Nature & Luxury", image: "/images/outdoor/615134288.jpg" },
+  { title: "Our People", image: "/images/meditation room/615134269.jpg" },
 ];
 
 export default function AboutHero() {
@@ -13,7 +13,7 @@ export default function AboutHero() {
     <section className="relative w-full h-[50vh] min-h-[300px] sm:h-[60vh] sm:min-h-[400px] md:h-[70vh] md:min-h-[500px] lg:h-[80vh] lg:min-h-[600px] flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <Image
-        src="/home/1.jpg"
+        src="/images/outdoor/643429493.jpg"
         alt="About background"
         fill
         className="object-cover object-center w-full h-full z-0"

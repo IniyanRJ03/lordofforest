@@ -14,7 +14,7 @@ const features = [
     icon: (
       <svg className="w-6 h-6 sm:w-7 sm:h-7 text-blue-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" /><circle cx="12" cy="9" r="2.5" /></svg>
     ),
-    image: "/home/1.jpg",
+    image: "/images/outdoor/643429493.jpg",
   },
   {
     title: "Easy Access",
@@ -22,7 +22,7 @@ const features = [
     icon: (
       <svg className="w-6 h-6 sm:w-7 sm:h-7 text-blue-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M17 8V6a5 5 0 00-10 0v2M5 8h14l1 12H4L5 8zm2 4h10" /></svg>
     ),
-    image: "/home/2.jpg",
+    image: "/images/outdoor/615134288.jpg",
   },
   {
     title: "Perfect Climate",
@@ -30,7 +30,7 @@ const features = [
     icon: (
       <svg className="w-6 h-6 sm:w-7 sm:h-7 text-blue-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5" /><path d="M12 1v2m0 18v2m11-11h-2M3 12H1m16.95 6.95l-1.41-1.41M6.05 6.05L4.64 4.64m12.02 0l-1.41 1.41M6.05 17.95l-1.41 1.41" /></svg>
     ),
-    image: "/home/3.jpg",
+    image: "/images/meditation room/615134269.jpg",
   },
   {
     title: "Natural Beauty",
@@ -38,7 +38,7 @@ const features = [
     icon: (
       <svg className="w-6 h-6 sm:w-7 sm:h-7 text-blue-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 22s8-4.5 8-10V7a8 8 0 10-16 0v5c0 5.5 8 10 8 10z" /></svg>
     ),
-    image: "/home/3.jpg",
+    image: "/images/meditation room/615134269.jpg",
   },
 ];
 
@@ -63,7 +63,7 @@ export default function Location() {
         {/* Main image and stats */}
         <div className="max-w-7xl mx-auto mb-12 sm:mb-16 relative flex flex-col items-center">
           <div className="rounded-xl sm:rounded-2xl overflow-hidden shadow-lg w-full h-[120px] sm:h-[160px] md:h-[220px] lg:h-[320px] relative">
-            <Image src="/home/2.jpg" alt="Resort location" fill className="object-cover w-full h-full" />
+            <Image src="/images/outdoor/615134288.jpg" alt="Resort location" fill className="object-cover w-full h-full" />
           </div>
           <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:gap-4 w-full max-w-md mx-auto -mt-4 sm:-mt-6 lg:-mt-8 z-10 md:flex md:flex-row md:justify-center md:items-center md:gap-4 md:w-full md:max-w-none">
             {stats.map((s) => (
